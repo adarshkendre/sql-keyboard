@@ -120,11 +120,11 @@ The extension uses multiple insertion strategies:
 ## 🎯 Supported Websites
 
 ### Coding Platforms
-- [LeetCode](https://leetcode.com) - Algorithm and SQL problems
-- [HackerRank](https://hackerrank.com) - Coding challenges and contests
-- [CodePen](https://codepen.io) - Front-end code playground
-- [JSFiddle](https://jsfiddle.net) - Code sharing and testing
-- [Replit](https://replit.com) - Online IDE and collaboration
+- [LeetCode](https://leetcode.com) - Algorithm and SQL problems (currently works on Leetcode only)
+- [HackerRank](https://hackerrank.com) - Coding challenges and contests (in future)
+- [CodePen](https://codepen.io) - Front-end code playground (in future)
+- [JSFiddle](https://jsfiddle.net) - Code sharing and testing (in future)
+- [Replit](https://replit.com) - Online IDE and collaboration (in future)
 
 ### SQL-Specific Platforms
 - [W3Schools SQL Tryit](https://w3schools.com) - SQL tutorial editor
