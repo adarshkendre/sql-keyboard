@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            width: 300px;
+            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        .title {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .version {
+            font-size: 12px;
+            opacity: 0.8;
+            margin: 4px 0 0 0;
+        }
+
+        .info {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #4CAF50;
+        }
+
+        .features {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .features li {
+            padding: 4px 0;
+            font-size: 13px;
+            opacity: 0.9;
+        }
+
+        .features li:before {
+            content: "✓ ";
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 11px;
+            opacity: 0.7;
+            margin-top: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">🗄️</div>
+        <h1 class="title">SQL Assistant Pro</h1>
+        <p class="version">Version 2.0</p>
+    </div>
+
+    <div class="info">
+        The floating SQL keyboard is now active on supported coding websites!
+    </div>
+
+    <div class="status">
+        <div class="status-dot"></div>
+        <span>Extension Active</span>
+    </div>
+
+    <ul class="features">
+        <li>Drag & drop floating panel</li>
+        <li>Smart editor detection</li>
+        <li>60+ SQL keywords & functions</li>
+        <li>Works on LeetCode, HackerRank & more</li>
+        <li>Minimize/maximize panel</li>
+        <li>Visual feedback notifications</li>
+    </ul>
+
+    <div class="footer">
+        Visit a supported coding website to see the panel
+    </div>
+</body>
+
+</html>

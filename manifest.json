@@ -1,0 +1,60 @@
+{
+  "manifest_version": 3,
+  "name": "SQL Assistant Pro",
+  "version": "2.0",
+  "description": "Professional floating SQL keyboard for coding platforms with advanced editor support",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": [
+    "https://leetcode.com/*",
+    "https://www.leetcode.com/*",
+    "https://hackerrank.com/*",
+    "https://www.hackerrank.com/*",
+    "https://codepen.io/*",
+    "https://codesandbox.io/*",
+    "https://jsfiddle.net/*",
+    "https://repl.it/*",
+    "https://replit.com/*",
+    "https://sql-practice.com/*",
+    "https://w3schools.com/*",
+    "https://www.w3schools.com/*",
+    "https://sqliteviewer.app/*",
+    "https://sqlfiddle.com/*",
+    "https://dbfiddle.uk/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://leetcode.com/*",
+        "https://www.leetcode.com/*",
+        "https://hackerrank.com/*",
+        "https://www.hackerrank.com/*",
+        "https://codepen.io/*",
+        "https://codesandbox.io/*",
+        "https://jsfiddle.net/*",
+        "https://repl.it/*",
+        "https://replit.com/*",
+        "https://sql-practice.com/*",
+        "https://w3schools.com/*",
+        "https://www.w3schools.com/*",
+        "https://sqliteviewer.app/*",
+        "https://sqlfiddle.com/*",
+        "https://dbfiddle.uk/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [{
+    "resources": ["panel.html", "panel.css", "panel.js", "icons/*"],
+    "matches": ["<all_urls>"]
+  }],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "SQL Assistant Pro"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
